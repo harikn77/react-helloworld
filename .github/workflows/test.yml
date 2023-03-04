@@ -1,0 +1,7 @@
+name: Test
+on: [push]
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    stpes: 
+      - run: echo "Hello World!"
